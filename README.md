@@ -3,7 +3,7 @@
 Made By 是如梦呀rumeng2233.
 
 # Downloads
-[CurseForge](https://www.curseforge.com/minecraft/mc-mods/endless-deep-space)
+[Modrinth](https://modrinth.com/mod/endless-deep-space/)
 [MC百科](https://www.mcmod.cn/class/5438.html)
 
 # Author Account
