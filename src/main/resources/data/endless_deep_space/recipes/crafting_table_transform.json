@@ -1,0 +1,13 @@
+{
+  "type": "endless_deep_space:transform_station",
+  "ingredients": [
+    {
+      "item": "endless_deep_space:transform_station"
+    }
+  ],
+  "transform_speed": 40,
+  "output_two": {
+    "item": "minecraft:crafting_table",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#endless_deep_space.custom:bosses",
+    "#endless_deep_space.custom:mini_bosses",
+    "#forge:bosses"
+  ]
+}

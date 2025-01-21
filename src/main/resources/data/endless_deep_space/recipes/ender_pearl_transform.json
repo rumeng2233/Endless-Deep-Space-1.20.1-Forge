@@ -1,0 +1,16 @@
+{
+  "type": "endless_deep_space:transform_station",
+  "ingredients": [
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    }
+  ],
+  "transform_speed": 5,
+  "output_two": {
+    "item": "minecraft:ender_eye",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_fv": 73,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Totem Of Undying",
+    "splashName": "Splash Potion of Totem Of Undying",
+    "lingeringName": "Lingering Potion of Totem Of Undying",
+    "arrowName": "Arrow of Totem Of Undying",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:TotemOfUndying"
+        },
+        "duration": 24000,
+        "infinite": false,
+        "amplifier": 4,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

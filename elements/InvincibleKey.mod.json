@@ -1,0 +1,12 @@
+{
+  "_fv": 73,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "I",
+    "keyBindingName": "Invincible",
+    "keyBindingCategoryKey": "endless_deep_space",
+    "onKeyPressed": {
+      "name": "InvincibleKeyAnXiaAnJianShi"
+    }
+  }
+}

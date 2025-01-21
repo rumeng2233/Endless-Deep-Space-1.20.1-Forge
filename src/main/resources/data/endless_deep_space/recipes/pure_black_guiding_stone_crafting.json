@@ -1,0 +1,14 @@
+{
+  "type": "endless_deep_space:transform_station",
+  "ingredients": [
+    {
+      "tag": "endless_deep_space.custom:guiding_stone"
+    }
+  ],
+  "input_cost_one": 9,
+  "transform_speed": 8,
+  "output_two": {
+    "item": "endless_deep_space:pure_black_guiding_stone",
+    "count": 1
+  }
+}

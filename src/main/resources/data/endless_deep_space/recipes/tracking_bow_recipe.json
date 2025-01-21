@@ -1,0 +1,16 @@
+{
+  "type": "endless_deep_space:transform_station",
+  "ingredients": [
+    {
+      "item": "endless_deep_space:bow"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    }
+  ],
+  "transform_speed": 20,
+  "output_two": {
+    "item": "endless_deep_space:tracking_bow",
+    "count": 1
+  }
+}

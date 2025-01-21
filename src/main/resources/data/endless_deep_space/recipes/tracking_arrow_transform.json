@@ -1,0 +1,17 @@
+{
+  "type": "endless_deep_space:transform_station",
+  "ingredients": [
+    {
+      "item": "endless_deep_space:tracking_arrow"
+    }
+  ],
+  "transform_speed": 160,
+  "output_one": {
+    "item": "minecraft:ender_pearl",
+    "count": 1
+  },
+  "output_two": {
+    "item": "minecraft:arrow",
+    "count": 1
+  }
+}

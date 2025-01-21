@@ -1,0 +1,17 @@
+{
+  "type": "endless_deep_space:transform_station",
+  "ingredients": [
+    {
+      "item": "minecraft:glistering_melon_slice"
+    }
+  ],
+  "transform_speed": 30,
+  "output_one": {
+    "item": "minecraft:gold_nugget",
+    "count": 8
+  },
+  "output_two": {
+    "item": "minecraft:melon_slice",
+    "count": 1
+  }
+}

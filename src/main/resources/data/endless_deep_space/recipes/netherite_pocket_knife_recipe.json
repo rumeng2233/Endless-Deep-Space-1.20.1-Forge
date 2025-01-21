@@ -1,0 +1,15 @@
+{
+  "type": "endless_deep_space:transform_station",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "endless_deep_space:diamond_pocket_knife"
+    }
+  ],
+  "output_two": {
+    "item": "endless_deep_space:netherite_pocket_knife",
+    "count": 1
+  }
+}

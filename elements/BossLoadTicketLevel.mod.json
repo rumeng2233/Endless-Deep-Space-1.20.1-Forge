@@ -1,0 +1,12 @@
+{
+  "_fv": 73,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "displayName": "Endless Deep Space: Boss Load Ticket Level",
+    "description": "The larger the value, the larger the range of chunks loaded on the boss. The calculation formula is (33 - value)",
+    "category": "UPDATES",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 21
+  }
+}

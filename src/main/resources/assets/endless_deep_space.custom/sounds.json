@@ -1,0 +1,127 @@
+{
+  "music.the_epitome_of_young_morals": {
+    "subtitle": "subtitles.endless_deep_space.custom.music.the_epitome_of_young_morals",
+    "sounds": [
+      {
+        "name": "endless_deep_space.custom:music/the_epitome_of_young_morals",
+        "stream": true
+      }
+    ]
+  },
+  "music.welkin_is_advent": {
+    "subtitle": "subtitles.endless_deep_space.custom.music.welkin_is_advent",
+    "sounds": [
+      {
+        "name": "endless_deep_space.custom:music/welkin_is_advent",
+        "stream": true
+      }
+    ]
+  },
+  "music.ordeals_rituals_laws": {
+    "subtitle": "subtitles.endless_deep_space.custom.music.ordeals_rituals_laws",
+    "sounds": [
+      {
+        "name": "endless_deep_space.custom:music/ordeals_rituals_laws",
+        "stream": true
+      }
+    ]
+  },
+  "music.narcissus_without_water": {
+    "subtitle": "subtitles.endless_deep_space.custom.music.narcissus_without_water",
+    "sounds": [
+      {
+        "name": "endless_deep_space.custom:music/narcissus_without_water",
+        "stream": true
+      }
+    ]
+  },
+  "music.the_almighty_violet_thunder": {
+    "subtitle": "subtitles.endless_deep_space.custom.music.the_almighty_violet_thunder",
+    "sounds": [
+      {
+        "name": "endless_deep_space.custom:music/the_almighty_violet_thunder",
+        "stream": true
+      }
+    ]
+  },
+  "music.thunderings_of_the_merciless": {
+    "subtitle": "subtitles.endless_deep_space.custom.music.thunderings_of_the_merciless",
+    "sounds": [
+      {
+        "name": "endless_deep_space.custom:music/thunderings_of_the_merciless",
+        "stream": true
+      }
+    ]
+  },
+  "music.burst_into_flames": {
+    "subtitle": "subtitles.endless_deep_space.custom.music.burst_into_flames",
+    "sounds": [
+      {
+        "name": "endless_deep_space.custom:music/burst_into_flames",
+        "stream": true
+      }
+    ]
+  },
+  "music.flickering_brightness": {
+    "subtitle": "subtitles.endless_deep_space.custom.music.flickering_brightness",
+    "sounds": [
+      {
+        "name": "endless_deep_space.custom:music/flickering_brightness",
+        "stream": true
+      }
+    ]
+  },
+  "music.realm_of_ethereal_murk": {
+    "subtitle": "subtitles.endless_deep_space.custom.music.realm_of_ethereal_murk",
+    "sounds": [
+      {
+        "name": "endless_deep_space.custom:music/realm_of_ethereal_murk",
+        "stream": true
+      }
+    ]
+  },
+  "music.grim_is_the_night": {
+    "subtitle": "subtitles.endless_deep_space.custom.music.grim_is_the_night",
+    "sounds": [
+      {
+        "name": "endless_deep_space.custom:music/grim_is_the_night",
+        "stream": true
+      }
+    ]
+  },
+  "music.a_duel_of_connecting_blades": {
+    "subtitle": "subtitles.endless_deep_space.custom.music.a_duel_of_connecting_blades",
+    "sounds": [
+      {
+        "name": "endless_deep_space.custom:music/a_duel_of_connecting_blades",
+        "stream": true
+      }
+    ]
+  },
+  "music.beats_of_water_drops": {
+    "subtitle": "subtitles.endless_deep_space.custom.music.beats_of_water_drops",
+    "sounds": [
+      {
+        "name": "endless_deep_space.custom:music/beats_of_water_drops",
+        "stream": true
+      }
+    ]
+  },
+  "music.no_turning_back": {
+    "subtitle": "subtitles.endless_deep_space.custom.music.no_turning_back",
+    "sounds": [
+      {
+        "name": "endless_deep_space.custom:music/no_turning_back",
+        "stream": true
+      }
+    ]
+  },
+  "music.incandescent_ode_of_resurrection": {
+    "sounds": [
+      {
+        "name": "endless_deep_space.custom:music/incandescent_ode_of_resurrection",
+        "stream": true
+      }
+    ]
+  }
+}

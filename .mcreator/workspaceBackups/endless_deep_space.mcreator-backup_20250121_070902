@@ -1,0 +1,1159 @@
+{
+  "mod_elements": [
+    {
+      "name": "Invincible",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invincible",
+      "metadata": {
+        "files": [
+          "src/main/java/shirumengya/endless_deep_space/potion/InvincibleMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "InvincibleAttackDefend",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invincible_attack_defend",
+      "metadata": {
+        "files": [
+          "src/main/java/shirumengya/endless_deep_space/procedures/InvincibleAttackDefendProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InvincibleDeathDefend",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invincible_death_defend",
+      "metadata": {
+        "files": [
+          "src/main/java/shirumengya/endless_deep_space/procedures/InvincibleDeathDefendProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InvincibleKey",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invincible_key",
+      "metadata": {
+        "files": [
+          "src/main/java/shirumengya/endless_deep_space/network/InvincibleKeyMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "InvincibleKeyAnXiaAnJianShi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "invincible_key_an_xia_an_jian_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/shirumengya/endless_deep_space/procedures/InvincibleKeyAnXiaAnJianShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DamageCorrectionEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "damage_correction_event",
+      "metadata": {
+        "files": [
+          "src/main/java/shirumengya/endless_deep_space/procedures/DamageCorrectionEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TotemSwordEWaiDeDiaoLuoTiaoJian",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_sword_e_wai_de_diao_luo_tiao_jian",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/shirumengya/endless_deep_space/procedures/TotemSwordEWaiDeDiaoLuoTiaoJianProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "TotemSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "totem_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/shirumengya/endless_deep_space/item/TotemSwordItem.java",
+          "src/main/resources/assets/endless_deep_space/models/item/totem_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "TotemSwordShengWuBeiGongJuJiZhongShi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "totem_sword_sheng_wu_bei_gong_ju_ji_zhong_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/shirumengya/endless_deep_space/procedures/TotemSwordShengWuBeiGongJuJiZhongShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TotemSwordYouJiKongQiShiShiTiDeWeiZhi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "totem_sword_you_ji_kong_qi_shi_shi_ti_de_wei_zhi",
+      "metadata": {
+        "files": [
+          "src/main/java/shirumengya/endless_deep_space/procedures/TotemSwordYouJiKongQiShiShiTiDeWeiZhiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TotemSwordInventoryTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_sword_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/shirumengya/endless_deep_space/procedures/TotemSwordInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ColorfulLightningBolt",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "colorful_lightning_bolt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endless_deep_space/damage_type/colorful_lightning_bolt.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderLordAttack",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ender_lord_attack",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endless_deep_space/damage_type/ender_lord_attack.json"
+        ]
+      }
+    },
+    {
+      "name": "Logo",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "logo",
+      "metadata": {
+        "files": [
+          "src/main/java/shirumengya/endless_deep_space/item/LogoItem.java",
+          "src/main/resources/assets/endless_deep_space/models/item/logo.json"
+        ]
+      }
+    },
+    {
+      "name": "Decapitate",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "decapitate",
+      "metadata": {
+        "files": [
+          "src/main/java/shirumengya/endless_deep_space/enchantment/DecapitateEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "SwordBlock",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sword_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endless_deep_space/damage_type/sword_block.json"
+        ]
+      }
+    },
+    {
+      "name": "BlockStrengthened",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "block_strengthened",
+      "metadata": {
+        "files": [
+          "src/main/java/shirumengya/endless_deep_space/enchantment/BlockStrengthenedEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "TotemOfUndying",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_undying",
+      "metadata": {
+        "files": [
+          "src/main/java/shirumengya/endless_deep_space/potion/TotemOfUndyingMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "TotemOfUndyingPotion",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_undying_potion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "TotemOfUndyingPotionRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_undying_potion_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/shirumengya/endless_deep_space/recipes/brewing/TotemOfUndyingPotionRecipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "WoodenPocketKnifeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wooden_pocket_knife_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endless_deep_space/recipes/wooden_pocket_knife_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StonePocketKnifeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "stone_pocket_knife_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endless_deep_space/recipes/stone_pocket_knife_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "IronPocketKnifeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "iron_pocket_knife_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endless_deep_space/recipes/iron_pocket_knife_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondPocketKnifeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "diamond_pocket_knife_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endless_deep_space/recipes/diamond_pocket_knife_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NetheritePocketKnifeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "netherite_pocket_knife_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endless_deep_space/recipes/netherite_pocket_knife_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TransformStationRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "transform_station_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endless_deep_space/recipes/transform_station_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TransformStationTransform",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "transform_station_transform",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endless_deep_space/recipes/transform_station_transform.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftingTableTransform",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "crafting_table_transform",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endless_deep_space/recipes/crafting_table_transform.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderPearlTransform",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ender_pearl_transform",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endless_deep_space/recipes/ender_pearl_transform.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderEyeTransform",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ender_eye_transform",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endless_deep_space/recipes/ender_eye_transform.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusFruitRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "chorus_fruit_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endless_deep_space/recipes/chorus_fruit_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PoppedChorusFruitRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "popped_chorus_fruit_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endless_deep_space/recipes/popped_chorus_fruit_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusFlowerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "chorus_flower_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endless_deep_space/recipes/chorus_flower_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusFlowerTransform",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "chorus_flower_transform",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endless_deep_space/recipes/chorus_flower_transform.json"
+        ]
+      }
+    },
+    {
+      "name": "GlisteringMelonSliceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "glistering_melon_slice_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endless_deep_space/recipes/glistering_melon_slice_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GlisteringMelonSliceTransform",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "glistering_melon_slice_transform",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endless_deep_space/recipes/glistering_melon_slice_transform.json"
+        ]
+      }
+    },
+    {
+      "name": "Riptide",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "riptide",
+      "metadata": {
+        "files": [
+          "src/main/java/shirumengya/endless_deep_space/enchantment/RiptideEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "Speed",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "speed",
+      "metadata": {
+        "files": [
+          "src/main/java/shirumengya/endless_deep_space/enchantment/SpeedEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "ReduceResistance",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "reduce_resistance",
+      "metadata": {
+        "files": [
+          "src/main/java/shirumengya/endless_deep_space/enchantment/ReduceResistanceEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "TrackingBowRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tracking_bow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endless_deep_space/recipes/tracking_bow_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TrackingBowTransform",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tracking_bow_transform",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endless_deep_space/recipes/tracking_bow_transform.json"
+        ]
+      }
+    },
+    {
+      "name": "TrackingArrowRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tracking_arrow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endless_deep_space/recipes/tracking_arrow_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TrackingArrowTransform",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tracking_arrow_transform",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endless_deep_space/recipes/tracking_arrow_transform.json"
+        ]
+      }
+    },
+    {
+      "name": "NormalBowRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "normal_bow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endless_deep_space/recipes/normal_bow_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NormalBowTransform",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "normal_bow_transform",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endless_deep_space/recipes/normal_bow_transform.json"
+        ]
+      }
+    },
+    {
+      "name": "ArrowsExplosionDropBlocks",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrows_explosion_drop_blocks",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      }
+    },
+    {
+      "name": "Explosion",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "explosion",
+      "metadata": {
+        "files": [
+          "src/main/java/shirumengya/endless_deep_space/enchantment/ExplosionEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "GuidingStoneLoadTicketLevel",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guiding_stone_load_ticket_level",
+      "metadata": {
+        "files": [],
+        "type": "number"
+      }
+    },
+    {
+      "name": "Attrition",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "attrition",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endless_deep_space/damage_type/attrition.json"
+        ]
+      }
+    },
+    {
+      "name": "NightVisionAnXiaAnJianShi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "night_vision_an_xia_an_jian_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/shirumengya/endless_deep_space/procedures/NightVisionAnXiaAnJianShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NightVision",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_vision",
+      "metadata": {
+        "files": [
+          "src/main/java/shirumengya/endless_deep_space/network/NightVisionMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "NoFog",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_fog",
+      "metadata": {
+        "files": [
+          "src/main/java/shirumengya/endless_deep_space/network/NoFogMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "NoFogAnXiaAnJianShi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "no_fog_an_xia_an_jian_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/shirumengya/endless_deep_space/procedures/NoFogAnXiaAnJianShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BossLoadTicketLevel",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boss_load_ticket_level",
+      "metadata": {
+        "files": [],
+        "type": "number"
+      }
+    },
+    {
+      "name": "PureRedGuidingStoneRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pure_red_guiding_stone_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endless_deep_space/recipes/pure_red_guiding_stone_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PureGreenGuidingStoneRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pure_green_guiding_stone_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endless_deep_space/recipes/pure_green_guiding_stone_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PureMagentaGuidingStoneRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pure_magenta_guiding_stone_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endless_deep_space/recipes/pure_magenta_guiding_stone_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PureBlueGuidingStoneRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pure_blue_guiding_stone_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endless_deep_space/recipes/pure_blue_guiding_stone_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Invincible",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "NightVision",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "NoFog",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "item.sword.block",
+      "files": [
+        "item.sword.block.1",
+        "item.sword.block.2",
+        "item.sword.block.3",
+        "item.sword.block.4",
+        "item.sword.block.5"
+      ],
+      "category": "player",
+      "subtitle": "Sword blocks"
+    }
+  ],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.minecraft.splash_potion.effect.totem_of_undying_potion": "Splash Potion of Totem Of Undying",
+      "gamerule.bossLoadTicketLevel.description": "The larger the value, the larger the range of chunks loaded on the boss. The calculation formula is (33 - value)",
+      "commands.endless_deep_space.vertigo_time.success.multiple": "%s entities Vertigo Time has been set to %s ticks",
+      "gamerule.arrowsExplosionDropBlocks.description": "Arrows Explosion Drop Blocks",
+      "commands.endless_deep_space.chunk_loader.success.boss_pos": "Found %s Boss chunk loader in dimension %s",
+      "entity.endless_deep_space.mutation_ravager": "Mutation Ravager",
+      "subtitles.endless_deep_space.custom.music.burst_into_flames": "Music: HOYO-MiX - Burst Into Flames",
+      "item.endless_deep_space.music_disc_wildfire": "Music Disc",
+      "block.endless_deep_space.white_guiding_stone": "White Guiding Stone",
+      "effect.endless_deep_space.damage_reduction": "Damage Reduction",
+      "enchantment.endless_deep_space.speed.desc": "The higher the level of the enchantment, the faster the arrow moves in the air.",
+      "message.endless_deep_space.entity.endless_deep_space.ocean_defender.attrition_sprechstimme": "§fDeal §r%s§f or more damage to the Ocean Defender to §cinterrupt the sprechstimme§r",
+      "item.endless_deep_space.totem_sword": "Totem Sword",
+      "entity.endless_deep_space.ocean_defenders.description": "Ocean Defender Herd",
+      "item.endless_deep_space.ocean_defenders_spawn_egg": "Coral Defenders Spawn Egg",
+      "item.endless_deep_space.music_disc_a_trap_with_no_return.desc": "HOYO-MiX - A Trap With No Return",
+      "commands.endless_deep_space.crash.success.multiple": "Crashed %s players",
+      "item.endless_deep_space.ocean_defender_spawn_egg": "Ocean Defender Spawn Egg",
+      "key.endless_deep_space.invincible_key": "Invincible",
+      "gamerule.arrowsExplosionDropBlocks": "Endless Deep Space: Arrows Explosion Drop Blocks",
+      "block.endless_deep_space.purple_guiding_stone": "Purple Guiding Stone",
+      "item.endless_deep_space.music_disc_a_trap_with_no_return": "Music Disc",
+      "block.endless_deep_space.red_guiding_stone": "Red Guiding Stone",
+      "key.endless_deep_space.night_vision_key.off": "Night Vision has been deactivated",
+      "message.endless_deep_space": "Endless Deep Space",
+      "message.endless_deep_space.music_handed.unknown_mod": "The game music has been handed over to other mods for hosting",
+      "block.endless_deep_space.cyan_guiding_stone": "Cyan Guiding Stone",
+      "key.endless_deep_space.no_fog_key.off": "No Fog has been deactivated",
+      "effect.endless_deep_space.swimming_acceleration": "Swimming Acceleration",
+      "entity.endless_deep_space.mutation_ravager.description.passenger": "%s\u0027s mount",
+      "entity.endless_deep_space.arrow": "Arrow",
+      "gamerule.guidingStoneLoadTicketLevel": "Endless Deep Space: Guiding Stone Load Ticket Level",
+      "subtitles.endless_deep_space.custom.music.ordeals_rituals_laws": "Music: HOYO-MiX - Ordeals, Rituals, Laws",
+      "block.endless_deep_space.black_guiding_stone": "Black Guiding Stone",
+      "enchantment.level": "Level %s",
+      "item.endless_deep_space.stone_pocket_knife": "Stone Pocket Knife",
+      "entity.endless_deep_space.screen_shake": "Screen Shake",
+      "item.endless_deep_space.music_disc_wildfire.desc": "HOYO-MiX,Jonathan Steingard - Wildfire",
+      "subtitles.endless_deep_space.custom.music.beats_of_water_drops": "Music: HOYO-MiX - Beats of Water Drops",
+      "item.endless_deep_space.music_disc_welkin_is_advent.desc": "HOYO-MiX - Welkin\u0027s Advent",
+      "block.endless_deep_space.warning_guiding_stone": "Warning Guiding Stone",
+      "item_group.endless_deep_space.endless_deep_space": "Endless Deep Space",
+      "block.endless_deep_space.lime_guiding_stone": "Lime Guiding Stone",
+      "block.endless_deep_space.aqua_guiding_stone": "Aqua Guiding Stone",
+      "message.endless_deep_space.entity.endless_deep_space.ocean_defender.charging.water": "§6Quickly detach the §cwater§r to avoid the charging attack of the Ocean Defender",
+      "block.endless_deep_space.transform_station": "Transform Station",
+      "key.endless_deep_space.night_vision_key.error": "You do not have permission to turn Night Vision on or off!",
+      "block.endless_deep_space.brown_guiding_stone": "Brown Guiding Stone",
+      "key.endless_deep_space.invincible_key.off": "Invincible has been deactivated",
+      "commands.endless_deep_space.attrition.set.success.attrition": "The Attrition Level number of %s has been set to %s",
+      "entity.endless_deep_space.colorful_lightning_bolt": "Colorful Lightning Bolt",
+      "entity.endless_deep_space.ender_lord.description": "The shadow hovering over The End",
+      "subtitles.endless_deep_space.custom.music.a_duel_of_connecting_blades": "Music: HOYO-MiX - A Duel of Connecting Blades",
+      "entity.minecraft.warden.description": "A tall shadow lurking Deep Dark",
+      "entity.endless_deep_space.ender_lord": "Ender Lord",
+      "item.minecraft.tipped_arrow.effect.totem_of_undying_potion": "Arrow of Totem Of Undying",
+      "key.endless_deep_space.invincible_key.on": "Invincible has been activated",
+      "item.endless_deep_space.wooden_pocket_knife": "Wooden Pocket Knife",
+      "enchantment.endless_deep_space.block_strengthened.desc": "The higher the level of the enchantment, the lower the damage received when using the sword to block damage, the higher the damage dealt by the rebound to the attacker, and the lower the consumption of weapon durability.",
+      "entity.endless_deep_space.mutation_ravager.description": "Hate remote",
+      "commands.endless_deep_space.crash.success.server": "Server Crashed",
+      "key.endless_deep_space.no_fog_key.error": "You do not have permission to turn No Fog on or off!",
+      "entity.endless_deep_space.blaznana_shulker_trick_bullet": "Blaznana Shulker Trick Bullet",
+      "key.categories.endless_deep_space": "Endless Deep Space",
+      "block.endless_deep_space.orange_guiding_stone": "Orange Guiding Stone",
+      "item.endless_deep_space.music_disc_welkin_is_advent": "Music Disc",
+      "death.attack.attrition.item": "%1$s is immersed in the abyss by %2$s using %3$s",
+      "subtitles.endless_deep_space.custom.music.grim_is_the_night": "Music: HOYO-MiX - Grim Is the Night",
+      "block.endless_deep_space.pink_guiding_stone": "Pink Guiding Stone",
+      "commands.endless_deep_space.attrition.set.success.attrition_max_tick": "The Attrition Max Tick number of %s has been set to %s",
+      "commands.endless_deep_space.attrition.set.success.attrition_tick": "The Attrition Tick number of %s has been set to %s",
+      "entity.endless_deep_space.ocean_defenders": "Coral Defenders",
+      "key.endless_deep_space.night_vision_key.on": "Night Vision has been activated",
+      "commands.endless_deep_space.delete.success.multiple": "Deleted %s entities",
+      "entity.endless_deep_space.ocean_defender": "Ocean Defender",
+      "subtitles.endless_deep_space.custom.music.a_trap_with_no_return": "Music: HOYO-MiX - A Trap With No Return",
+      "item.minecraft.lingering_potion.effect.totem_of_undying_potion": "Lingering Potion of Totem Of Undying",
+      "item.endless_deep_space.logo": "Logo",
+      "enchantment.endless_deep_space.reduce_resistance": "Reduce Resistance",
+      "enchantment.endless_deep_space.riptide": "Riptide",
+      "commands.endless_deep_space.crash.success.single": "Crashed %s",
+      "subtitles.endless_deep_space.custom.music.thunderings_of_the_merciless": "Music: HOYO-MiX - Thunderings of the Merciless",
+      "subtitles.endless_deep_space.custom.music.no_turning_back": "Music: HOYO-MiX - No Turning Back",
+      "death.attack.attrition.player": "%1$s is immersed in the abyss whilst trying to escape %2$s",
+      "message.endless_deep_space.end_poem": "Read again End Poem",
+      "effect.endless_deep_space.invincible": "Invincible",
+      "enchantment.endless_deep_space.decapitate.kill_entity_times": "Kill entity %s times",
+      "block.endless_deep_space.blue_guiding_stone": "Blue Guiding Stone",
+      "message.endless_deep_space.entity.endless_deep_space.ocean_defender.charging.air": "§6Quickly detach the §cair§r to avoid the charging attack of the Ocean Defender",
+      "commands.endless_deep_space.nuke.success": "An explosion occurred in %s with a source entity of %s, an explosion range of %s, an explosion damage reduction of %s, a flame of %s, an explosion power of %s, a Y Shorten to %s, Screen Shake of %s and a destruction block type of %s",
+      "subtitles.endless_deep_space.custom.music.flickering_brightness": "Music: HOYO-MiX - Flickering Brightness",
+      "message.endless_deep_space.music_handed.known_mod": "The game music has been handed over to %s for hosting",
+      "death.attack.colorful_lightning_bolt.player": "%1$s disappeared under the dim light of thunder while escaping from %2$s",
+      "item.endless_deep_space.golden_pocket_knife": "Golden Pocket Knife",
+      "commands.endless_deep_space.delete.success.single": "Deleted %s",
+      "block.endless_deep_space.pure_magenta_guiding_stone": "Pure Magenta Guiding Stone",
+      "enchantment.endless_deep_space.decapitate": "Decapitate",
+      "item.endless_deep_space.mutation_ravager_spawn_egg": "Mutation Ravager Spawn Egg",
+      "commands.endless_deep_space.attrition.get.success.attrition_tick": "%s currently has %s Attrition Tick",
+      "attribute.endless_deep_space.damage_reduction": "Damage Reduction",
+      "key.endless_deep_space.no_fog": "No Fog",
+      "commands.endless_deep_space.chunk_loader.failed.uuid": "Unable to find chunk loader for %s",
+      "gamerule.guidingStoneLoadTicketLevel.description": "The larger the value, the larger the range of chunks loaded on the guiding stone. The calculation formula is (33 - value)",
+      "subtitles.endless_deep_space.custom.music.wildfire": "Music: HOYO-MiX,Jonathan Steingard - Wildfire",
+      "subtitles.endless_deep_space.custom.music.the_almighty_violet_thunder": "Music: HOYO-MiX - The Almighty Violet Thunder",
+      "block.endless_deep_space.sky_blue_guiding_stone": "Sky Blue Guiding Stone",
+      "commands.endless_deep_space.nuke.success.nullentity": "Null",
+      "item.endless_deep_space.bow": "Bow",
+      "entity.endless_deep_space.blaznana_shulker_trick.description": "Sweet Dreams Troupe with their reason clouded by the shade of the AtaviSearch Forest. They carry with them the memetic virus borne into fruit in the Wonder Forest, banaoldly promoting the banacreed of the Slumbernana Monkey and Dr. Primitive\u0027s banadvice.",
+      "commands.endless_deep_space.chunk_loader.success.guiding_stone_pos": "Found %s Guiding Stone chunk loader in dimension %s",
+      "subtitles.endless_deep_space.custom.music.narcissus_without_water": "Music: HOYO-MiX - Narcissus Without Water",
+      "block.endless_deep_space.pure_blue_guiding_stone": "Pure Blue Guiding Stone",
+      "commands.endless_deep_space.attrition.add.success.attrition": "To %s added Level %s, tick %s, add level %s, and update tick %s Attrition",
+      "enchantment.endless_deep_space.explosion": "Explosion",
+      "item.endless_deep_space.ender_lord_spawn_egg": "Ender Lord Spawn Egg",
+      "death.attack.attrition": "%1$s is immersed in the abyss",
+      "subtitles.endless_deep_space.custom.music.hope_is_the_thing_with_feathers": "Music: 知更鸟,HOYO-MiX,Chevy - Hope Is the Thing With Feathers",
+      "block.endless_deep_space.light_blue_guiding_stone": "Light Blue Guiding Stone",
+      "key.endless_deep_space.invincible_key.error": "You do not have permission to turn Invincible on or off!",
+      "message.endless_deep_space.entity.endless_deep_space.ocean_defender.laser_attack": "§cQuickly approach§r the Ocean Defender to interrupt the charging process",
+      "gamerule.bossLoadTicketLevel": "Endless Deep Space: Boss Load Ticket Level",
+      "block.endless_deep_space.pure_black_guiding_stone": "Pure Black Guiding Stone",
+      "block.endless_deep_space.blue_green_guiding_stone": "Blue Green Guiding Stone",
+      "item.endless_deep_space.diamond_pocket_knife": "Diamond Pocket Knife",
+      "commands.endless_deep_space.vertigo_time.success.single": "%s\u0027s Vertigo Time has been set to %s ticks",
+      "subtitles.endless_deep_space.custom.music.the_epitome_of_young_morals": "Music: HOYO-MiX - The Epitome of Young Morals",
+      "key.endless_deep_space.no_fog_key.on": "No Fog has been activated",
+      "enchantment.endless_deep_space.block_strengthened": "Block Strengthened",
+      "block.endless_deep_space.gray_guiding_stone": "Gray Guiding Stone",
+      "item.endless_deep_space.tracking_arrow": "Tracking Arrow",
+      "block.endless_deep_space.green_guiding_stone": "Green Guiding Stone",
+      "entity.endless_deep_space.ender_dragon": "Ender Dragon",
+      "effect.endless_deep_space.totem_of_undying": "Totem Of Undying",
+      "commands.endless_deep_space.attrition.get.success.attrition": "%s currently has %s Attrition Level",
+      "item.minecraft.potion.effect.totem_of_undying_potion": "Potion of Totem Of Undying",
+      "key.endless_deep_space.night_vision": "Night Vision",
+      "item.endless_deep_space.totem_sword.attack_entities": "Attacked %s entities within the range of 200x200x200",
+      "effect.endless_deep_space.damage_increase": "Damage Increase",
+      "entity.endless_deep_space.cluster_fireball": "Cluster Fireball",
+      "entity.endless_deep_space.blaznana_shulker_trick": "Blaznana Shulker Trick",
+      "block.endless_deep_space.pure_red_guiding_stone": "Pure Red Guiding Stone",
+      "death.attack.colorful_lightning_bolt.item": "%1$s disappeared in the dim light of the thunder under %2$s\\u0027s witness",
+      "subtitles.endless_deep_space.custom.music.realm_of_ethereal_murk": "Music: HOYO-MiX - Realm of Ethereal Murk",
+      "subtitles.endless_deep_space.custom.music.welkin_is_advent": "Music: HOYO-MiX - Welkin\u0027s Advent",
+      "death.attack.colorful_lightning_bolt": "%1$s disappeared without a trace in the dim light of the thunder",
+      "entity.endless_deep_space.abyssal_torpedo": "Abyssal Torpedo",
+      "item.endless_deep_space.iron_pocket_knife": "Iron Pocket Knife",
+      "block.endless_deep_space.magenta_guiding_stone": "Magenta Guiding Stone",
+      "block.endless_deep_space.pure_green_guiding_stone": "Pure Green Guiding Stone",
+      "block.endless_deep_space.yellow_guiding_stone": "Yellow Guiding Stone",
+      "enchantment.endless_deep_space.reduce_resistance.desc": "The higher the level of the enchantment, the less height resistance the arrow receives.",
+      "entity.endless_deep_space.ocean_defender.description": "Inflate Elder Guardian",
+      "item.endless_deep_space.tracking_bow": "Tracking Bow",
+      "block.endless_deep_space.light_gray_guiding_stone": "Light Gray Guiding Stone",
+      "commands.endless_deep_space.chunk_loader.success": "%s in %s",
+      "commands.endless_deep_space.attrition.get.success.attrition_max_tick": "%s currently has %s Attrition Max Tick",
+      "enchantment.endless_deep_space.speed": "Speed",
+      "enchantment.endless_deep_space.riptide.desc": "The higher the level of the enchantment, the faster the arrow moves in the water.",
+      "enchantment.endless_deep_space.decapitate.desc": "The more entities killed, the higher the damage dealt by weapons with this enchantment, the higher the level of the enchantment, and the faster the accumulated number of kills, but the durability consumed will also increase.",
+      "entity.endless_deep_space.blaznana_shulker_trick.description.easter_egg": "什么？你问我为什么要把这个小Boss叫这个名字？问问崩铁策划吧，2.7末日幻影太难了！那个心蕉如火的猴把戏根本打不过啊！！整整11500112血，刮死我了唉哟——",
+      "subtitles.item.sword.block": "Sword blocks",
+      "item.endless_deep_space.netherite_pocket_knife": "Netherite Pocket Knife"
+    },
+    "zh_cn": {
+      "item.minecraft.splash_potion.effect.totem_of_undying_potion": "喷溅型不死图腾药水",
+      "gamerule.bossLoadTicketLevel.description": "值越大，Boss生物加载的区块范围越大，计算公式为(33 - value)",
+      "commands.endless_deep_space.vertigo_time.success.multiple": "已将%s个实体的眩晕时间设置为%stick",
+      "gamerule.arrowsExplosionDropBlocks.description": "箭矢爆炸掉落方块",
+      "commands.endless_deep_space.chunk_loader.success.boss_pos": "找到%s个Boss生物区块加载器在%s里",
+      "entity.endless_deep_space.mutation_ravager": "变异劫掠兽",
+      "subtitles.endless_deep_space.custom.music.burst_into_flames": "《HOYO-MiX - 烈火轰雷 Burst Into Flames》",
+      "item.endless_deep_space.music_disc_wildfire": "音乐唱片",
+      "block.endless_deep_space.white_guiding_stone": "白色指路石",
+      "effect.endless_deep_space.damage_reduction": "伤害减免",
+      "enchantment.endless_deep_space.speed.desc": "魔咒等级越高，箭矢在空气中移动的速度越高。",
+      "message.endless_deep_space.entity.endless_deep_space.ocean_defender.attrition_sprechstimme": "§f对海洋守卫者造成§r%s§f及以上的伤害以§c中断吟唱§r",
+      "item.endless_deep_space.totem_sword": "图腾之剑",
+      "entity.endless_deep_space.ocean_defenders.description": "海洋守卫者之群",
+      "item.endless_deep_space.ocean_defenders_spawn_egg": "珊瑚的守护者刷怪蛋",
+      "item.endless_deep_space.music_disc_a_trap_with_no_return.desc": "HOYO-MiX - 陷阵无回 A Trap With No Return",
+      "commands.endless_deep_space.crash.success.multiple": "崩溃了%s个玩家",
+      "item.endless_deep_space.ocean_defender_spawn_egg": "海洋守卫者刷怪蛋",
+      "key.endless_deep_space.invincible_key": "无敌",
+      "gamerule.arrowsExplosionDropBlocks": "无尽深空：箭矢爆炸掉落方块",
+      "block.endless_deep_space.purple_guiding_stone": "紫色指路石",
+      "item.endless_deep_space.music_disc_a_trap_with_no_return": "音乐唱片",
+      "block.endless_deep_space.red_guiding_stone": "红色指路石",
+      "key.endless_deep_space.night_vision_key.off": "夜视已关闭",
+      "message.endless_deep_space": "无尽深空",
+      "message.endless_deep_space.music_handed.unknown_mod": "游戏音乐已交由其他模组托管",
+      "block.endless_deep_space.cyan_guiding_stone": "青色指路石",
+      "key.endless_deep_space.no_fog_key.off": "去雾已关闭",
+      "effect.endless_deep_space.swimming_acceleration": "游泳加速",
+      "entity.endless_deep_space.mutation_ravager.description.passenger": "%s的坐骑",
+      "entity.endless_deep_space.arrow": "箭",
+      "gamerule.guidingStoneLoadTicketLevel": "无尽深空：指路石加载票强度",
+      "subtitles.endless_deep_space.custom.music.ordeals_rituals_laws": "《HOYO-MiX - 秘仪与律法 Ordeals, Rituals, Laws》",
+      "block.endless_deep_space.black_guiding_stone": "黑色指路石",
+      "enchantment.level": "等级%s",
+      "item.endless_deep_space.stone_pocket_knife": "石小刀",
+      "entity.endless_deep_space.screen_shake": "屏幕抖动实体",
+      "item.endless_deep_space.music_disc_wildfire.desc": "HOYO-MiX,Jonathan Steingard - 野火 Wildfire",
+      "subtitles.endless_deep_space.custom.music.beats_of_water_drops": "《HOYO-MiX - 水滴的节拍 Beats of Water Drops》",
+      "item.endless_deep_space.music_disc_welkin_is_advent.desc": "HOYO-MiX - 天霄登临 Welkin\u0027s Advent",
+      "block.endless_deep_space.warning_guiding_stone": "警告指路石",
+      "item_group.endless_deep_space.endless_deep_space": "无尽深空",
+      "block.endless_deep_space.lime_guiding_stone": "黄绿色指路石",
+      "block.endless_deep_space.aqua_guiding_stone": "天蓝色指路石",
+      "message.endless_deep_space.entity.endless_deep_space.ocean_defender.charging.water": "§6快速脱离§c水源§r以规避海洋守卫者的蓄力攻击",
+      "block.endless_deep_space.transform_station": "转换台",
+      "key.endless_deep_space.night_vision_key.error": "你无权开启或关闭夜视！",
+      "block.endless_deep_space.brown_guiding_stone": "棕色指路石",
+      "key.endless_deep_space.invincible_key.off": "无敌已关闭",
+      "commands.endless_deep_space.attrition.set.success.attrition": "已将%s的蚀破层数设置为%s",
+      "entity.endless_deep_space.colorful_lightning_bolt": "彩色闪电束",
+      "entity.endless_deep_space.ender_lord.description": "末地上空盘旋的阴影",
+      "subtitles.endless_deep_space.custom.music.a_duel_of_connecting_blades": "《HOYO-MiX - 撄锋竞武 A Duel of Connecting Blades》",
+      "entity.minecraft.warden.description": "潜伏于深暗之域的高大暗影",
+      "entity.endless_deep_space.ender_lord": "末影领主",
+      "item.minecraft.tipped_arrow.effect.totem_of_undying_potion": "不死图腾之箭",
+      "key.endless_deep_space.invincible_key.on": "无敌已开启",
+      "item.endless_deep_space.wooden_pocket_knife": "木小刀",
+      "enchantment.endless_deep_space.block_strengthened.desc": "魔咒等级越高，使用剑格挡伤害时受到的伤害越低，反弹给攻击者的伤害越高，对武器耐久的消耗越低。",
+      "entity.endless_deep_space.mutation_ravager.description": "痛恨远程",
+      "commands.endless_deep_space.crash.success.server": "服务器已崩溃",
+      "key.endless_deep_space.no_fog_key.error": "你无权开启或关闭去雾！",
+      "entity.endless_deep_space.blaznana_shulker_trick_bullet": "心蕉如火的贝把戏射弹",
+      "key.categories.endless_deep_space": "无尽深空",
+      "block.endless_deep_space.orange_guiding_stone": "橙色指路石",
+      "item.endless_deep_space.music_disc_welkin_is_advent": "音乐唱片",
+      "death.attack.attrition.item": "%1$s被%2$s使用%3$s唤来的深渊之力浸染了",
+      "subtitles.endless_deep_space.custom.music.grim_is_the_night": "《HOYO-MiX - 厄夜深冥 Grim Is the Night》",
+      "block.endless_deep_space.pink_guiding_stone": "粉红色指路石",
+      "commands.endless_deep_space.attrition.set.success.attrition_max_tick": "已将%s的最大蚀破持续时间设置为%stick",
+      "commands.endless_deep_space.attrition.set.success.attrition_tick": "已将%s的蚀破持续时间设置为%stick",
+      "entity.endless_deep_space.ocean_defenders": "珊瑚的守护者",
+      "key.endless_deep_space.night_vision_key.on": "夜视已开启",
+      "commands.endless_deep_space.delete.success.multiple": "删除了%s个实体",
+      "entity.endless_deep_space.ocean_defender": "海洋守卫者",
+      "subtitles.endless_deep_space.custom.music.a_trap_with_no_return": "《HOYO-MiX - 陷阵无回 A Trap With No Return》",
+      "item.minecraft.lingering_potion.effect.totem_of_undying_potion": "滞留型不死图腾药水",
+      "item.endless_deep_space.logo": "Logo",
+      "enchantment.endless_deep_space.reduce_resistance": "阻力减少",
+      "enchantment.endless_deep_space.riptide": "激流",
+      "commands.endless_deep_space.crash.success.single": "崩溃了%s",
+      "subtitles.endless_deep_space.custom.music.thunderings_of_the_merciless": "《HOYO-MiX - 雷霆的威光 Thunderings of the Merciless》",
+      "subtitles.endless_deep_space.custom.music.no_turning_back": "《HOYO-MiX - 背水一战 No Turning Back》",
+      "death.attack.attrition.player": "%1$s在逃离%2$s的时候被深渊浸染了",
+      "message.endless_deep_space.end_poem": "重新阅读终末之诗",
+      "effect.endless_deep_space.invincible": "无敌",
+      "enchantment.endless_deep_space.decapitate.kill_entity_times": "实体击杀数：%s",
+      "block.endless_deep_space.blue_guiding_stone": "蓝色指路石",
+      "message.endless_deep_space.entity.endless_deep_space.ocean_defender.charging.air": "§6快速脱离§c空气§r以规避海洋守卫者的蓄力攻击",
+      "commands.endless_deep_space.nuke.success": "在%s处产生了源实体为%s，爆炸范围为%s，爆炸伤害削减为%s，产生火焰为%s，爆炸威力为%s，Y轴缩短为%s，屏幕抖动为%s，破坏方块类型为%s的爆炸",
+      "subtitles.endless_deep_space.custom.music.flickering_brightness": "《HOYO-MiX - 熙焰明光 Flickering Brightness》",
+      "message.endless_deep_space.music_handed.known_mod": "游戏音乐已交由%s托管",
+      "death.attack.colorful_lightning_bolt.player": "%1$s在逃离%2$s的时候消失于雷霆的微光下",
+      "item.endless_deep_space.golden_pocket_knife": "金小刀",
+      "commands.endless_deep_space.delete.success.single": "删除了%s",
+      "block.endless_deep_space.pure_magenta_guiding_stone": "纯品红指路石",
+      "enchantment.endless_deep_space.decapitate": "斩首",
+      "item.endless_deep_space.mutation_ravager_spawn_egg": "变异劫掠兽刷怪蛋",
+      "commands.endless_deep_space.attrition.get.success.attrition_tick": "%s当前拥有%stick蚀破持续时间",
+      "attribute.endless_deep_space.damage_reduction": "伤害减免",
+      "key.endless_deep_space.no_fog": "去雾",
+      "commands.endless_deep_space.chunk_loader.failed.uuid": "未找到%s对应的区块加载器",
+      "gamerule.guidingStoneLoadTicketLevel.description": "值越大，指路石加载的区块范围越大，计算公式为(33 - value)",
+      "subtitles.endless_deep_space.custom.music.wildfire": "《HOYO-MiX,Jonathan Steingard - 野火 Wildfire》",
+      "subtitles.endless_deep_space.custom.music.the_almighty_violet_thunder": "《HOYO-MiX - 稻光神鸣 The Almighty Violet Thunder》",
+      "block.endless_deep_space.sky_blue_guiding_stone": "天依蓝指路石",
+      "commands.endless_deep_space.nuke.success.nullentity": "无",
+      "item.endless_deep_space.bow": "弓",
+      "entity.endless_deep_space.blaznana_shulker_trick.description": "「  被『  源究森林』  的树荫遮蔽理智的美梦剧团。它们携带着『  奇想林』  中结出的模因病毒，于梦中蕉横地宣扬睡蕉小猴的蕉旨与原始博士的蕉诲。」  ",
+      "commands.endless_deep_space.chunk_loader.success.guiding_stone_pos": "找到%s个指路石区块加载器在%s里",
+      "subtitles.endless_deep_space.custom.music.narcissus_without_water": "《HOYO-MiX - 涸浊的花迹 Narcissus Without Water》",
+      "block.endless_deep_space.pure_blue_guiding_stone": "纯蓝指路石",
+      "commands.endless_deep_space.attrition.add.success.attrition": "已为%s添加层数为%s，持续时间为%stick，叠加层数为%s，刷新持续时间为%s的蚀破效果",
+      "enchantment.endless_deep_space.explosion": "爆炸",
+      "item.endless_deep_space.ender_lord_spawn_egg": "末影领主刷怪蛋",
+      "death.attack.attrition": "%1$s被深渊浸染了",
+      "subtitles.endless_deep_space.custom.music.hope_is_the_thing_with_feathers": "《知更鸟,HOYO-MiX,Chevy - 希望有羽毛和翅膀》",
+      "block.endless_deep_space.light_blue_guiding_stone": "淡蓝色指路石",
+      "key.endless_deep_space.invincible_key.error": "你无权开启或关闭无敌！",
+      "message.endless_deep_space.entity.endless_deep_space.ocean_defender.laser_attack": "§c快速靠近§r海洋守卫者以中断蓄力",
+      "gamerule.bossLoadTicketLevel": "无尽深空：Boss生物加载票强度",
+      "block.endless_deep_space.pure_black_guiding_stone": "纯黑指路石",
+      "block.endless_deep_space.blue_green_guiding_stone": "苍绿色指路石",
+      "item.endless_deep_space.diamond_pocket_knife": "钻石小刀",
+      "commands.endless_deep_space.vertigo_time.success.single": "已将%s的眩晕时间设置为%stick",
+      "subtitles.endless_deep_space.custom.music.the_epitome_of_young_morals": "《HOYO-MiX - 天下少年第一流 The Epitome of Young Morals》",
+      "key.endless_deep_space.no_fog_key.on": "去雾已开启",
+      "enchantment.endless_deep_space.block_strengthened": "格挡强化",
+      "block.endless_deep_space.gray_guiding_stone": "灰色指路石",
+      "item.endless_deep_space.tracking_arrow": "追踪箭",
+      "block.endless_deep_space.green_guiding_stone": "绿色指路石",
+      "entity.endless_deep_space.ender_dragon": "末影龙",
+      "effect.endless_deep_space.totem_of_undying": "不死图腾",
+      "commands.endless_deep_space.attrition.get.success.attrition": "%s当前拥有%s蚀破层数",
+      "item.minecraft.potion.effect.totem_of_undying_potion": "不死图腾药水",
+      "key.endless_deep_space.night_vision": "夜视",
+      "item.endless_deep_space.totem_sword.attack_entities": "攻击了200x200x200范围内的%s个实体",
+      "effect.endless_deep_space.damage_increase": "伤害增加",
+      "entity.endless_deep_space.cluster_fireball": "集束火球",
+      "entity.endless_deep_space.blaznana_shulker_trick": "心蕉如火的贝把戏",
+      "block.endless_deep_space.pure_red_guiding_stone": "纯红指路石",
+      "death.attack.colorful_lightning_bolt.item": "%1$s在%2$s的见证中消失于雷霆的微光下",
+      "subtitles.endless_deep_space.custom.music.realm_of_ethereal_murk": "《HOYO-MiX - 幽域翛翛 Realm of Ethereal Murk》",
+      "subtitles.endless_deep_space.custom.music.welkin_is_advent": "《HOYO-MiX - 天霄登临 Welkin\u0027s Advent》",
+      "death.attack.colorful_lightning_bolt": "%1$s在雷霆的微光下消失的无影无踪",
+      "entity.endless_deep_space.abyssal_torpedo": "深渊鱼雷",
+      "item.endless_deep_space.iron_pocket_knife": "铁小刀",
+      "block.endless_deep_space.magenta_guiding_stone": "品红色指路石",
+      "block.endless_deep_space.pure_green_guiding_stone": "纯绿指路石",
+      "block.endless_deep_space.yellow_guiding_stone": "黄色指路石",
+      "enchantment.endless_deep_space.reduce_resistance.desc": "魔咒等级越高，箭矢受到的的高度阻力越少。",
+      "entity.endless_deep_space.ocean_defender.description": "充气远古守卫者",
+      "item.endless_deep_space.tracking_bow": "追踪弓",
+      "block.endless_deep_space.light_gray_guiding_stone": "淡灰色指路石",
+      "commands.endless_deep_space.chunk_loader.success": "%s在%s",
+      "commands.endless_deep_space.attrition.get.success.attrition_max_tick": "%s当前拥有%stick最大蚀破持续时间",
+      "enchantment.endless_deep_space.speed": "速度",
+      "enchantment.endless_deep_space.riptide.desc": "魔咒等级越高，箭矢在水中移动的速度越高。",
+      "enchantment.endless_deep_space.decapitate.desc": "击杀的实体越多，附有此魔咒的武器伤害越高；魔咒等级越高，能越快的累计击杀次数，但消耗的耐久也会增加。",
+      "entity.endless_deep_space.blaznana_shulker_trick.description.easter_egg": "什么？你问我为什么要把这个小Boss叫这个名字？问问崩铁策划吧，2.7末日幻影太难了！那个心蕉如火的猴把戏根本打不过啊！！整整11500112血，刮死我了唉哟——",
+      "subtitles.item.sword.block": "剑：格挡",
+      "item.endless_deep_space.netherite_pocket_knife": "下界合金小刀"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "endless_deep_space",
+    "modName": "Endless Deep Space",
+    "version": "0.9.6",
+    "author": "是如梦呀rumeng2233",
+    "websiteURL": "https://space.bilibili.com/375078257",
+    "license": "CC-BY-NC-4.0",
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "jei"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "是如梦呀rumeng2233",
+    "modElementsPackage": "shirumengya.endless_deep_space"
+  },
+  "mcreatorVersion": 202400452410
+}

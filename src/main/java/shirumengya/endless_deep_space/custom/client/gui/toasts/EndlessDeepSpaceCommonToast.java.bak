@@ -1,0 +1,72 @@
+package shirumengya.endless_deep_space.custom.client.gui.toasts;
+
+import com.mojang.blaze3d.vertex.PoseStack;
+import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.client.gui.components.toasts.Toast;
+import net.minecraft.client.gui.components.toasts.ToastComponent;
+import com.mojang.blaze3d.systems.RenderSystem;
+import javax.annotation.Nullable;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraft.client.renderer.GameRenderer;
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.resources.ResourceLocation;
+
+@OnlyIn(Dist.CLIENT)
+public class EndlessDeepSpaceCommonToast implements Toast {
+	ResourceLocation TOAST_TEXTURE = new ResourceLocation("endless_deep_space:textures/gui/endless_deep_space_toasts/common_toast.png");
+	private ItemStack items;
+	private Component titles;
+	private Component descriptions;
+	private long timeleft;
+	private int titlecolors;
+	private int descriptioncolors;
+	private boolean changed;
+	private long times;
+
+	public EndlessDeepSpaceCommonToast(ItemStack item, @Nullable Component title, @Nullable Component description, long time, int titlecolor, int descriptioncolor) {
+		this.items = item;
+		this.titles = title;
+		this.descriptions = description;
+		this.times = time;
+		this.titlecolors = titlecolor;
+		this.descriptioncolors = descriptioncolor;
+	}
+
+	public static void add(ToastComponent toastcomponent, ItemStack item, @Nullable Component title, @Nullable Component description, long time, int titlecolor, int descriptioncolor) {
+      	toastcomponent.addToast(new EndlessDeepSpaceCommonToast(item, title, description, time, titlecolor, descriptioncolor));
+   	}
+
+   	public static void addOrUpdate(ToastComponent toastcomponent, ItemStack item, @Nullable Component title, @Nullable Component description, long time, int titlecolor, int descriptioncolor) {
+   		EndlessDeepSpaceCommonToast toast = toastcomponent.getToast(EndlessDeepSpaceCommonToast.class, NO_TOKEN);
+   		if (toast == null) {
+      		toastcomponent.addToast(new EndlessDeepSpaceCommonToast(item, title, description, time, titlecolor, descriptioncolor));
+   		} else {
+   			toast.reset(item, title, description, time, titlecolor, descriptioncolor);
+   		}
+   	}
+
+   	public void reset(ItemStack item, @Nullable Component title, @Nullable Component description, long time, int titlecolor, int descriptioncolor) {
+   		this.items = item;
+		this.titles = title;
+		this.descriptions = description;
+		this.times = time;
+		this.titlecolors = titlecolor;
+		this.descriptioncolors = descriptioncolor;
+		this.changed = true;
+   	}
+
+	@Override
+	public Toast.Visibility render(GuiGraphics p_94814_, ToastComponent p_94815_, long p_94816_) {
+		if (this.changed) {
+			this.timeleft = p_94816_;
+			this.changed = false;
+		}
+        p_94814_.blit(TOAST_TEXTURE, 0, 0, 0, 128, this.width(), this.height());
+        p_94814_.drawString(p_94815_.getMinecraft().font, this.titles, 30, 7, this.titlecolors, false);
+		p_94814_.drawString(p_94815_.getMinecraft().font, this.descriptions, 30, 18, this.descriptioncolors, false);
+		p_94814_.renderFakeItem(this.items, 8, 8);
+    	return p_94816_ - this.timeleft < times ? Visibility.SHOW : Visibility.HIDE;
+   	}
+}

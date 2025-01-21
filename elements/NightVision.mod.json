@@ -1,0 +1,12 @@
+{
+  "_fv": 73,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "N",
+    "keyBindingName": "Night Vision",
+    "keyBindingCategoryKey": "endless_deep_space",
+    "onKeyPressed": {
+      "name": "NightVisionAnXiaAnJianShi"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "providers": [
+      {
+        "type": "ttf",
+        "file": "endless_deep_space:genshin_impact_font.ttf",
+        "shift": [ 0, 1.0 ],
+        "size": 10,
+        "oversample": 12,
+        "skip": ""
+      }
+	]
+}

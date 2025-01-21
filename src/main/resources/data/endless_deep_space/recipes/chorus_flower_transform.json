@@ -1,0 +1,17 @@
+{
+  "type": "endless_deep_space:transform_station",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:chorus_flower"
+    }
+  ],
+  "input_cost_one": 0,
+  "transform_speed": 8,
+  "output_one": {
+    "item": "minecraft:chorus_fruit",
+    "count": 4
+  }
+}

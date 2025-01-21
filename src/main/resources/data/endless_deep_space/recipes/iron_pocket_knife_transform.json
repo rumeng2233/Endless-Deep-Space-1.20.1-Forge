@@ -1,0 +1,17 @@
+{
+  "type": "endless_deep_space:transform_station",
+  "ingredients": [
+    {
+      "item": "endless_deep_space:iron_pocket_knife"
+    }
+  ],
+  "transform_speed": 20,
+  "output_one": {
+    "item": "minecraft:iron_ingot",
+    "count": 1
+  },
+  "output_two": {
+    "item": "minecraft:stick",
+    "count": 1
+  }
+}

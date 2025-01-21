@@ -1,0 +1,13 @@
+{
+  "type": "endless_deep_space:transform_station",
+  "ingredients": [
+    {
+      "item": "minecraft:popped_chorus_fruit"
+    }
+  ],
+  "transform_speed": 8,
+  "output_two": {
+    "item": "minecraft:chorus_fruit",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_fv": 73,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Totem Of Undying",
+    "icon": "totem_of_undying",
+    "color": {
+      "value": -1385596,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredByMilk": true,
+    "isProtectedByTotem": false,
+    "isCuredbyHoney": false,
+    "modifiers": []
+  }
+}

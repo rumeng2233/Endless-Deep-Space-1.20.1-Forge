@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/oak_planks",
+    "east": "endless_deep_space:block/transform_station_side",
+    "north": "endless_deep_space:block/transform_station_front",
+    "particle": "endless_deep_space:block/transform_station_front",
+    "south": "endless_deep_space:block/transform_station_side",
+    "up": "endless_deep_space:block/transform_station_top",
+    "west": "endless_deep_space:block/transform_station_front"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,12 @@
+{
+  "_fv": 73,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.0,
+    "scaling": "never",
+    "effects": "burning",
+    "normalDeathMessage": "%1$s disappeared without a trace in the dim light of the thunder",
+    "itemDeathMessage": "%1$s disappeared in the dim light of the thunder under %2$s\\u0027s witness",
+    "playerDeathMessage": "%1$s disappeared under the dim light of thunder while escaping from %2$s"
+  }
+}

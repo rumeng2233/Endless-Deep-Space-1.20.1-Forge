@@ -1,0 +1,27 @@
+{
+  "item.sword.block": {
+    "subtitle": "subtitles.item.sword.block",
+    "sounds": [
+      {
+        "name": "endless_deep_space:item.sword.block.1",
+        "stream": false
+      },
+      {
+        "name": "endless_deep_space:item.sword.block.2",
+        "stream": false
+      },
+      {
+        "name": "endless_deep_space:item.sword.block.3",
+        "stream": false
+      },
+      {
+        "name": "endless_deep_space:item.sword.block.4",
+        "stream": false
+      },
+      {
+        "name": "endless_deep_space:item.sword.block.5",
+        "stream": false
+      }
+    ]
+  }
+}

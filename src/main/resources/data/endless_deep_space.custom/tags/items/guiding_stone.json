@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "endless_deep_space:white_guiding_stone",
+    "endless_deep_space:blue_guiding_stone",
+    "endless_deep_space:black_guiding_stone",
+    "endless_deep_space:yellow_guiding_stone",
+    "endless_deep_space:red_guiding_stone",
+    "endless_deep_space:purple_guiding_stone",
+    "endless_deep_space:pink_guiding_stone",
+    "endless_deep_space:orange_guiding_stone",
+    "endless_deep_space:magenta_guiding_stone",
+    "endless_deep_space:lime_guiding_stone",
+    "endless_deep_space:light_gray_guiding_stone",
+    "endless_deep_space:light_blue_guiding_stone",
+    "endless_deep_space:green_guiding_stone",
+    "endless_deep_space:gray_guiding_stone",
+    "endless_deep_space:cyan_guiding_stone",
+    "endless_deep_space:brown_guiding_stone",
+    "endless_deep_space:blue_green_guiding_stone",
+    "endless_deep_space:sky_blue_guiding_stone",
+    "endless_deep_space:aqua_guiding_stone",
+    "endless_deep_space:pure_black_guiding_stone",
+    "endless_deep_space:warning_guiding_stone",
+    "endless_deep_space:pure_red_guiding_stone",
+    "endless_deep_space:pure_green_guiding_stone",
+    "endless_deep_space:pure_blue_guiding_stone",
+    "endless_deep_space:pure_magenta_guiding_stone"
+  ]
+}

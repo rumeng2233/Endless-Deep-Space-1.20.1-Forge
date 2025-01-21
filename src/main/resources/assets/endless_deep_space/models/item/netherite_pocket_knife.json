@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "endless_deep_space:item/pocket_knife/netherite_pocket_knife"
+  }
+}

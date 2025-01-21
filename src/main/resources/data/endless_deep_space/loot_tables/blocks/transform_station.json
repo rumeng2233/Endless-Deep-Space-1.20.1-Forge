@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:block",
+    "random_sequence": "endless_deep_space:blocks/transform_station",
+    "pools": [
+      {
+        "rolls": 1.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "endless_deep_space:transform_station"
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,15 @@
+{
+  "type": "endless_deep_space:transform_station",
+  "ingredients": [
+    {
+      "item": "minecraft:white_dye"
+    },
+    {
+      "item": "endless_deep_space:green_guiding_stone"
+    }
+  ],
+  "output_two": {
+    "item": "endless_deep_space:pure_green_guiding_stone",
+    "count": 1
+  }
+}
