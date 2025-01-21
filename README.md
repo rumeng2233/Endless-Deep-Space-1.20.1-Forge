@@ -1,6 +1,6 @@
 # Endless Deep Space
 
-Made By 是如梦呀rumeng2233 and MCreator.
+Made By 是如梦呀rumeng2233.
 
 # Downloads
 [CurseForge](https://www.curseforge.com/minecraft/mc-mods/endless-deep-space)
